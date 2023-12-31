@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Game</title>
+    
+</head>
+<body>
+
+<div id="game-container">
+    <button id="startButton" onclick="showChoices()">Start</button>
+    <div id="choices" style="display: none;">
+        <p>Choose an option:</p>
+        <button onclick="findPlane()">Find the Plane</button>
+        <button onclick="findMaterials()">Find Materials</button>
+        <button onclick="findHumans()">Find Humans</button>
+    </div>
+</div>
+</body>
+<script src="/scripts/choices.js"></script>
